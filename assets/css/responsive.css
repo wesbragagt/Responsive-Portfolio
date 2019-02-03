@@ -2,80 +2,79 @@
 @media screen and (max-width: 980px) {
   .nav-bar {
     background: rgb(216, 85, 85);
-    
   }
 
-    .about-container {
-      margin-right: 12.5%;
-      margin-left: 12.5%;
-      font-size-adjust: inherit;
-      width: 75vw;
-      margin-top:3%;
-  } 
+  .about-container {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+    font-size-adjust: inherit;
+    width: 75vw;
+    margin-top: 3%;
+  }
 
   .main-head {
-      left: 12.5%;
+    left: 12.5%;
   }
 
   ul {
-      right: 12.25%;
-      
+    right: 12.25%;
   }
-
 }
 
 /* 768px screen */
 @media screen and (max-width: 768px) {
-    body {
-        max-width: 768px;
-    }
-
-    .nav-bar {
-    /* background: rgb(87, 85, 216); */
-    
+  body {
+    max-width: 768px;
   }
 
-    .about-container {
-      margin-right: 6.25%;
-      margin-left: 3.25%;
-      font-size-adjust: inherit;
-      width: 92.75vw;
-      margin-top:3%;
-  } 
+  .nav-bar {
+    /* background: rgb(87, 85, 216); */
+  }
+
+  .about-container {
+    margin-right: 6.25%;
+    margin-left: 3.25%;
+    font-size-adjust: inherit;
+    width: 92.75vw;
+    margin-top: 3%;
+  }
 
   .main-head {
-      left: 6.25%;
+    left: 6.25%;
   }
 
   ul {
-      right: 6.25%;
-      
+    right: 6.25%;
   }
 }
 /* 640px screen */
-@media screen and (max-width:640px) {
-    .nav-bar {
+@media screen and (max-width: 640px) {
+  .nav-bar {
     background: rgb(216, 85, 85);
-    padding-bottom: 3em;
+    padding-bottom: 0.5em;
   }
 
-    .about-container {
-      margin-right: 12.5%;
-      margin-left: 12.5%;
-      font-size-adjust: inherit;
-      width: 75vw;
-      margin-top:3%;
-  } 
+  .about-container {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+    width: 75vw;
+    margin-top: 3%;
+  }
 
   .main-head {
-      font-size: 1.4em;
-      left: 32%;
-      top:5%;
+    font-family: "Major mono display", monospace;
+    position: static;
+    width: auto;
+    padding: auto;
+    margin-bottom: 0.3em;
+    text-align: center;
   }
 
   ul {
-      top: 75%;
-      right: 35%;
-      
+    position: static;
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+    font-size: 50%;
   }
 }
