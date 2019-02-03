@@ -25,7 +25,8 @@ body {
 .main-head {
   font-family: "Major mono display", monospace;
   position: absolute;
-  top: 15%;
+  /* top: 5%; */
+  /* bottom: 30%; */
   left: calc(12.5% - 5px);
   width: auto;
   padding: auto;
