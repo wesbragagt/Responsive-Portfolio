@@ -1,2 +1,2 @@
 # Responsive-Portfolio
-Making my Bootstrap portfolio responsive
+Making my basic portfolio responsive with the use of media queries.
